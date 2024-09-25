@@ -1,29 +1,28 @@
 body {
-    background-color: #222222;
+    background-color: #191e21;
 }
 
 .title-bar {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #c0c0c0;
+    color: #fff;
 
 }
 
 .container-div {
     display: flex;
-    justify-content: space-between;
+   justify-content: start;
     margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Manrope,Arial,Helvetica Neue,Helvetica,sans-serif;
     color: #222222;
     text-align: center;
     background-color: purple;
-    border: 1px solid #9d00ff; /* Electric blue for visibility */
-    box-shadow: 0 0 8px #9d00ff; /* Soft glow effect */
+    border: 1px solid #fff; /* Electric blue for visibility */
     padding: 10px;
     background: rgba(255, 255, 255, 0.05); /* Slightly visible background */
     backdrop-filter: blur(4px); /* Frosted glass effect */
     border-radius: 8px; /* Smooth corners for a modern look */
-    color: azure;
+    color: #fff;
 }
 
 .footer-div {
@@ -41,4 +40,17 @@ a {
 
 .book-img {
     width:250px;
+}
+
+.in-container-div {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.order-button {
+    text-decoration: none;
+    color: #191e21;
+    background-color: #76f191;
+    padding: 5px 15px 5px 15px;
+    border-radius: 100px;
 }

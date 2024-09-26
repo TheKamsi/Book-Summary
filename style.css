@@ -1,5 +1,5 @@
 body {
-    background-color: #191e21;
+    background-color: #0e1217;
 }
 
 .title-bar {
@@ -17,7 +17,7 @@ body {
     color: #222222;
     text-align: center;
     background-color: purple;
-    border: 1px solid #fff; /* Electric blue for visibility */
+    border: 1px solid #a8b3cf; /* Electric blue for visibility */
     padding: 10px;
     background: rgba(255, 255, 255, 0.05); /* Slightly visible background */
     backdrop-filter: blur(4px); /* Frosted glass effect */
@@ -39,12 +39,18 @@ a {
 }
 
 .book-img {
-    width:250px;
+    width:150px;
+    border-radius: 5px;
 }
 
 .in-container-div {
     text-align: left;
     margin-left: 40px;
+}
+
+.order-button-div {
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .order-button {
@@ -53,4 +59,6 @@ a {
     background-color: #76f191;
     padding: 5px 15px 5px 15px;
     border-radius: 100px;
+    margin-right: 10px;
 }
+

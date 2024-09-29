@@ -11,7 +11,7 @@ body {
 
 .container-div {
     display: flex;
-   justify-content: start;
+    justify-content: start;
     margin-top: 10px;
     font-family: Manrope,Arial,Helvetica Neue,Helvetica,sans-serif;
     color: #222222;
@@ -28,6 +28,23 @@ body {
 .footer-div {
     text-align: center;
     color: #c0c0c0;
+}
+
+.footer-div a{
+    text-decoration: none;
+}
+
+.fa-brands.fa-linkedin {
+    font-size: 20px;
+}
+
+.fa-brands.fa-instagram {
+    font-size: 20px;
+}
+
+.icons-div {
+    text-align: center;
+    justify-content: space-between;
 }
 
 .p-text {

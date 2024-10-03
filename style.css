@@ -79,3 +79,7 @@ a {
     margin-right: 10px;
 }
 
+.order-button:hover {
+    color: #fff;
+}
+
